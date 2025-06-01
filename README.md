@@ -76,24 +76,19 @@ runApp("path_to_your_app_directory")
 
 ---
 
-## 📈 Strategy Formula
+## 🧠 Methodology
 
-The **Sharpe Ratio** of the long-short portfolio is computed as:
+The application predicts 1-month returns (`R1M_Usd`) using machine learning models trained on engineered financial factors.
 
-\[
-\text{Sharpe Ratio} = \frac{\mathbb{E}[R_{LS}]}{\sqrt{(\sigma^2_{\text{long}} + \sigma^2_{\text{short}})/2}}
-\]
+### 📈 Sharpe Ratio Formula
+
+```math
+\text{Sharpe Ratio} = \frac{\mathbb{E}[R_{LS}]}{\sqrt{(\sigma_{\text{long}}^2 + \sigma_{\text{short}}^2)/2}}
+```
 
 Where:
-- \( R_{LS} \) is the return spread
-- \( \sigma_{\text{long}} \), \( \sigma_{\text{short}} \) are volatilities of long/short legs
-
----
-
-## 📊 Model Performance Metrics
-
-- **R²**: \( 1 - \frac{\sum (y - \hat{y})^2}{\sum (y - \bar{y})^2} \)
-- **RMSE**: \( \sqrt{ \frac{1}{n} \sum (y - \hat{y})^2 } \)
+- `R_{LS}`: long-short return
+- `\sigma`: standard deviation of top and bottom groups
 
 ---
 
