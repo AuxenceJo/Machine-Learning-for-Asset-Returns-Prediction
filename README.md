@@ -97,15 +97,16 @@ Where:
 
 ---
 
-## 📜 Author & Contact
+## 🧑‍💻 Author
 
-- **Name:** Auxence Jovignot  
-- **Email:** *(your-email@example.com)*  
-- **GitHub:** [github.com/AuxenceJo](https://github.com/AuxenceJo)  
-- **LinkedIn:** *(optional)*
+**Auxence [@AuxenceJo]**
+
+If you use or modify this project, a ⭐ on GitHub would be appreciated!
+
+If you have any advice please do not hesitate ton contact me via github or [linkedin.com](https://www.linkedin.com/in/auxence-jovignot/)
 
 ---
 
-## 📎 License
+## 📜 License
 
-MIT License – feel free to reuse and improve.
+MIT License. Free to use and adapt with attribution.
