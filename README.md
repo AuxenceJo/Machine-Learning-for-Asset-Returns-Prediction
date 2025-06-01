@@ -87,9 +87,10 @@ The application predicts 1-month returns (`R1M_Usd`) using machine learning mode
 ```
 
 Where:
-- ```math R_{LS}```: long-short return
+```math
+- R_{LS}: long-short return
 - `\sigma`: standard deviation of top and bottom groups
-
+```
 ---
 
 ## 🧑‍💻 Author
